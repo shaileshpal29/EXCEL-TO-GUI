@@ -1,0 +1,43 @@
+Root Window (tk.Tk)
+├── Menu
+│   ├── File Menu
+│   │   ├── Logout
+│   │   └── Exit
+│   ├── Admin Menu
+│   │   ├── User Management
+│   │   │   ├── Add User
+│   │   │   ├── Modify User
+│   │   │   ├── Delete User
+│   │   │   └── View Users
+│   │   └── Logs
+│   │       └── View Logs
+├── Notebook (ttk.Notebook)
+│   ├── Tab 1 (ttk.Frame)
+│   │   ├── Treeview (ttk.Treeview)
+│   │   ├── Button Frame (ttk.Frame)
+│   │   │   ├── Load Excel Button (ttk.Button)
+│   │   │   ├── Save to Database Button (ttk.Button)
+│   │   │   ├── Backup Button (ttk.Button)
+│   │   │   ├── Import Data Button (ttk.Button)
+│   │   │   ├── SQL Query Button (ttk.Button)
+│   │   │   ├── Download Backup Button (ttk.Button)
+│   │   │   └── Download in Excel Button (ttk.Button)
+│   └── Tab 2 (ttk.Frame)
+│       ├── Treeview (ttk.Treeview)
+│       ├── Button Frame (ttk.Frame)
+│       │   ├── Load Excel Button (ttk.Button)
+│       │   ├── Save to Database Button (ttk.Button)
+│       │   ├── Backup Button (ttk.Button)
+│       │   ├── Import Data Button (ttk.Button)
+│       │   ├── SQL Query Button (ttk.Button)
+│       │   ├── Download Backup Button (ttk.Button)
+│       │   └── Download in Excel Button (ttk.Button)
+├── Status Bar (ttk.Label)
+└── Dialogs (Toplevel)
+    ├── Login Window (ttk.Toplevel)
+    ├── Add User Window (ttk.Toplevel)
+    ├── Modify User Window (ttk.Toplevel)
+    ├── Delete User Window (ttk.Toplevel)
+    ├── View Users Window (ttk.Toplevel)
+    ├── View Logs Window (ttk.Toplevel)
+    └── SQL Query Window (ttk.Toplevel)
